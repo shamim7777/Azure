@@ -1,5 +1,5 @@
 variables:
-  host: Kiwirail.jmx
+  host: localhost
 
 jobs:
 - job: jmeter
@@ -12,7 +12,7 @@ jobs:
     inputs:
       targetType: filePath
       filePath: 'jmeter/test.sh'
-      arguments: '$(host)'
+      arguments: '$PWD Kiwirail.jmx $(host)'
       workingDirectory: jmeter
       failOnStderr: true
   - task: PublishPipelineArtifact@1
