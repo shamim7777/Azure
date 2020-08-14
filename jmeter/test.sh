@@ -8,7 +8,7 @@ echo "Root path: $rootPath"
 echo "Test file: $testFile"
 echo "Host: $host"
 
-T_DIR=.
+T_DIR=${PWD}
 
 # Reporting dir: start fresh
 R_DIR=$T_DIR/report
@@ -17,17 +17,16 @@ mkdir -p $R_DIR
 
 rm -f ${T_DIR}/test-plan.jtl ${T_DIR}/jmeter.log  > /dev/null 2>&1
 
-bash run.sh $rootPath -Dlog_level.jmeter=DEBUG \
+./run.sh $rootPath -Dlog_level.jmeter=DEBUG \
 	-Jhost=$host \
-	-n -t /test/$testFile -l $T_DIR/test-plan.jtl -j $T_DIR/jmeter.log \
+	-n -t $T_DIR/test/$testFile -l $T_DIR/test/test-plan.jtl -j $T_DIR/test/jmeter.log \
 	-e -o $R_DIR
 
 echo "==== jmeter.log ===="
-cat $T_DIR/jmeter.log
+cat $T_DIR/test/jmeter.log
 
 echo "==== Raw Test Report ===="
-cat $T_DIR/test-plan.jtl
+cat $T_DIR/test/test-plan.jtl
 
 echo "==== HTML Test Report ===="
 echo "See HTML test report in $R_DIR/index.html"
-
