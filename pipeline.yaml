@@ -12,7 +12,7 @@ jobs:
     inputs:
       targetType: filePath
       filePath: 'jmeter/test.sh'
-      arguments: '${PWD} Kiwirail.jmx $(host)'
+      arguments: '${PWD}Kiwirail.jmx $(host)'
       workingDirectory: jmeter
       failOnStderr: true
   - task: PublishPipelineArtifact@1
