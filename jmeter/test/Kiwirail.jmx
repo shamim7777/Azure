@@ -79,32 +79,32 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-1650328000">
+          <collectionProp name="82631582">
             <stringProp name="1567">10</stringProp>
             <stringProp name="53">5</stringProp>
             <stringProp name="53">5</stringProp>
-            <stringProp name="53">5</stringProp>
+            <stringProp name="1598">20</stringProp>
             <stringProp name="53">5</stringProp>
           </collectionProp>
-          <collectionProp name="-85099468">
+          <collectionProp name="1647860114">
             <stringProp name="1691">50</stringProp>
             <stringProp name="53">5</stringProp>
             <stringProp name="53">5</stringProp>
-            <stringProp name="53">5</stringProp>
+            <stringProp name="1598">20</stringProp>
             <stringProp name="53">5</stringProp>
           </collectionProp>
-          <collectionProp name="-1997896638">
+          <collectionProp name="-264937056">
             <stringProp name="48625">100</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="53">5</stringProp>
-            <stringProp name="53">5</stringProp>
+            <stringProp name="1598">20</stringProp>
             <stringProp name="1567">10</stringProp>
           </collectionProp>
-          <collectionProp name="-1728907115">
+          <collectionProp name="4052467">
             <stringProp name="49586">200</stringProp>
             <stringProp name="1567">10</stringProp>
             <stringProp name="53">5</stringProp>
-            <stringProp name="53">5</stringProp>
+            <stringProp name="1598">20</stringProp>
             <stringProp name="1598">20</stringProp>
           </collectionProp>
         </collectionProp>
@@ -120,7 +120,7 @@
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://blazedemo.com/index.php" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Index page" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -146,7 +146,7 @@
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://blazedemo.com/reserve.php" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Reserve page" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="fromPort" elementType="HTTPArgument">
@@ -200,7 +200,7 @@
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://blazedemo.com/purchase.php" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Purchase page" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="flight" elementType="HTTPArgument">
@@ -275,7 +275,7 @@
             </UniformRandomTimer>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://blazedemo.com/confirmation.php" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Confirmation page" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="zipCode" elementType="HTTPArgument">
