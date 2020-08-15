@@ -11,11 +11,6 @@ echo "Host: $host"
 T_DIR=${PWD}
 
 
- 
-#install plugin
-cp ${T_DIR}/plugins/jpgc-casutg/ext/jmeter-plugins-casutg-2.9.jar /opt/apache-jmeter-5.1.1/lib/ext/
-cp ${T_DIR}/plugins/jpgc-casutg/ext/jmeter-plugins-manager-1.3.jar /opt/apache-jmeter-5.1.1/lib/ext/
-cp ${T_DIR}/plugins/jpgc-casutg/jmeter-plugins-cmn-jmeter-0.6.jar /opt/apache-jmeter-5.1.1/lib/
 
 # Reporting dir: start fresh
 R_DIR=$T_DIR/report
