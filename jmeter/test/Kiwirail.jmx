@@ -83,7 +83,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">0</stringProp>
@@ -170,8 +170,8 @@
             </HeaderManager>
             <hashTree/>
             <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-              <stringProp name="RandomTimer.range">16845.0</stringProp>
-              <stringProp name="ConstantTimer.delay">8422.5</stringProp>
+              <stringProp name="RandomTimer.range">1684.0</stringProp>
+              <stringProp name="ConstantTimer.delay">842.5</stringProp>
               <stringProp name="TestPlan.comments">Recorded time was 16845 milliseconds</stringProp>
             </UniformRandomTimer>
             <hashTree/>
@@ -245,8 +245,8 @@
             </HeaderManager>
             <hashTree/>
             <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-              <stringProp name="RandomTimer.range">10453.0</stringProp>
-              <stringProp name="ConstantTimer.delay">5226.5</stringProp>
+              <stringProp name="RandomTimer.range">1045.0</stringProp>
+              <stringProp name="ConstantTimer.delay">522.5</stringProp>
               <stringProp name="TestPlan.comments">Recorded time was 10453 milliseconds</stringProp>
             </UniformRandomTimer>
             <hashTree/>
@@ -362,8 +362,8 @@
             </HeaderManager>
             <hashTree/>
             <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-              <stringProp name="RandomTimer.range">63595.0</stringProp>
-              <stringProp name="ConstantTimer.delay">31797.5</stringProp>
+              <stringProp name="RandomTimer.range">1359.0</stringProp>
+              <stringProp name="ConstantTimer.delay">1179.5</stringProp>
               <stringProp name="TestPlan.comments">Recorded time was 63595 milliseconds</stringProp>
             </UniformRandomTimer>
             <hashTree/>
@@ -492,7 +492,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">20</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -654,8 +654,8 @@
             </HeaderManager>
             <hashTree/>
             <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-              <stringProp name="RandomTimer.range">10453.0</stringProp>
-              <stringProp name="ConstantTimer.delay">5226.5</stringProp>
+              <stringProp name="RandomTimer.range">1045.0</stringProp>
+              <stringProp name="ConstantTimer.delay">522.5</stringProp>
               <stringProp name="TestPlan.comments">Recorded time was 10453 milliseconds</stringProp>
             </UniformRandomTimer>
             <hashTree/>
