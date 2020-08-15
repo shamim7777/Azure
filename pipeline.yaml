@@ -14,7 +14,7 @@ jobs:
       filePath: 'jmeter/test.sh'
       arguments: '"" Kiwirail.jmx $(host)'
       workingDirectory: jmeter
-      failOnStderr: true
+      failOnStderr: false
   - task: PublishPipelineArtifact@1
     displayName: Publish JMeter Report
     inputs:
