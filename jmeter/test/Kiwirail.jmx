@@ -79,33 +79,33 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-2031615776">
+          <collectionProp name="-1650328000">
             <stringProp name="1567">10</stringProp>
             <stringProp name="53">5</stringProp>
-            <stringProp name="1567">10</stringProp>
-            <stringProp name="1722">60</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
             <stringProp name="53">5</stringProp>
           </collectionProp>
-          <collectionProp name="-1588177996">
+          <collectionProp name="-85099468">
             <stringProp name="1691">50</stringProp>
-            <stringProp name="1567">10</stringProp>
-            <stringProp name="1567">10</stringProp>
-            <stringProp name="1722">60</stringProp>
-            <stringProp name="1567">10</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
           </collectionProp>
-          <collectionProp name="2019358755">
+          <collectionProp name="-1997896638">
             <stringProp name="48625">100</stringProp>
-            <stringProp name="1598">20</stringProp>
             <stringProp name="1567">10</stringProp>
-            <stringProp name="1660">40</stringProp>
-            <stringProp name="1598">20</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="1567">10</stringProp>
           </collectionProp>
-          <collectionProp name="-1883664866">
-            <stringProp name="52469">500</stringProp>
-            <stringProp name="1629">30</stringProp>
+          <collectionProp name="559024801">
+            <stringProp name="50547">300</stringProp>
             <stringProp name="1567">10</stringProp>
-            <stringProp name="1629">30</stringProp>
-            <stringProp name="1629">30</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="53">5</stringProp>
+            <stringProp name="1598">20</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -431,7 +431,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
