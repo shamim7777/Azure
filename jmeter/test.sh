@@ -10,6 +10,9 @@ echo "Host: $host"
 
 T_DIR=${PWD}
 
+
+/opt/apache-jmeter-5.1.1/bin/PluginsManagerCMD.sh status
+
 # Reporting dir: start fresh
 R_DIR=$T_DIR/report
 rm -rf ${R_DIR} > /dev/null 2>&1
@@ -17,10 +20,10 @@ mkdir -p $R_DIR
 
 rm -f ${T_DIR}/test/test-plan.jtl ${T_DIR}/test/jmeter.log  > /dev/null 2>&1
 
-bash run.sh $rootPath -Dlog_level.jmeter=DEBUG \
-	-Jhost=$host \
-	-n -t $T_DIR/test/$testFile -l $T_DIR/test/test-plan.jtl -j $T_DIR/test/jmeter.log \
-	-e -o $R_DIR
+#bash run.sh $rootPath -Dlog_level.jmeter=DEBUG \
+#	-Jhost=$host \
+#	-n -t $T_DIR/test/$testFile -l $T_DIR/test/test-plan.jtl -j $T_DIR/test/jmeter.log \
+#	-e -o $R_DIR
 
 echo "==== jmeter.log ===="
 cat $T_DIR/test/jmeter.log
